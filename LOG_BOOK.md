@@ -23,15 +23,6 @@ npm init -y
 
 `
 npm install express
-
-npm install typescript @types/express -D
-
-npm install ts-node-dev -D
-`
-
-
-`
-npm install express
 `
 
 `
