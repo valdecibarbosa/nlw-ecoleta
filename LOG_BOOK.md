@@ -1,6 +1,6 @@
-#Diário de Bordo.
+# Diário de Bordo.
 
-##Backend
+## Backend
 
 - Criando aplicação BackEnd:
 
@@ -24,7 +24,7 @@ npm install ts-node-dev -D
 npx tsc --init
 `
 
-##Frontend
+## Frontend
 
 - Criando aplicação frontEnd:
 
