@@ -7,3 +7,5 @@ Projeto: EcoLeta - App para cadastro e Ecopontos (Pontos ecológicos) para colet
 Linguagens e Conceitos: NodeJs, TypeScript, ReactJs,  React Native
 
 Integrações: Preencher
+
+Todo: Detalhar a aplicação
