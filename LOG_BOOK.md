@@ -6,7 +6,9 @@
 
 `
 mkdir backend
+
 cd backend
+
 npm init -y
 `
 
@@ -14,7 +16,9 @@ npm init -y
 
 `
 npm install express
+
 npm install typescript @types/express -D
+
 npm install ts-node-dev -D
 `
 
