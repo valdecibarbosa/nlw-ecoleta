@@ -66,3 +66,5 @@ npx knex --knexfile knexfile.ts migrate:latest
 npx create-react-app web --template=typescript
 `
 
+//sempre que criarmos estados com array e objetos é preciso
+//informar manualmente os tipos de variaveis usando interface (substituido o PropTypes antigo)
