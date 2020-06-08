@@ -24,6 +24,7 @@ Projeto: EcoLeta - App Web e Mobile para cadastro e localização de pontos ecol
   - **Back-End**
     - Express
     - Sqlite
+    - knex
     - multer
     - celebrate/Joi
 
