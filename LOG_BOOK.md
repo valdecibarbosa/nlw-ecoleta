@@ -56,7 +56,9 @@ index, show, create, update, delete
 `
 npx knex --knexfile knexfile.ts migrate:latest
 `
+ - TODO:
 
+- permitir upload de imagens no cadastro do ponto de coleta.
 
 ## Frontend
 
@@ -68,3 +70,44 @@ npx create-react-app web --template=typescript
 
 //sempre que criarmos estados com array e objetos é preciso
 //informar manualmente os tipos de variaveis usando interface (substituido o PropTypes antigo)
+
+## mobile
+
+- Iniciando projeto mobile (usando Expo)
+
+`
+npm install -g expo-cli
+`
+
+`
+expo init mobile
+`
+* escolher template blank com typescript 
+  
+
+- Instalando fontes do Google no Expo.
+  
+  `
+  expo install @expo-google-fonts/ubuntu @expo-google-fonts/roboto  expo-font
+  `
+
+  - TODO:
+
+Trocar inputText por selectBox na vusca de UF e Cidade usando o react-native-picker-select
+
+
+## Hospedagem
+
+   - Backend
+
+    -- Heroku (somente para testes e demonstrações)
+    
+    -- Digital Ocean (Para aplicações pequenas)
+    
+    -- AWS / Google Cloud / Microsoft Azure (Para aplicações maiores)
+
+   - Front End
+    
+    -- Netlify (Automazido com github para deploys) 
+    -- Vercel (muito parecido com o Nettlify)
+    -- Amazon S3 / Google Cloud Storage (Projetos Grandes)

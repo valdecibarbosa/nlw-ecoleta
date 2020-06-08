@@ -10,9 +10,5 @@ npm-debug.*
 web-build/
 web-report/
 
-uploads/*
-!uploads/.gitkeep
-*.sqlite
-
 # macOS
 .DS_Store
