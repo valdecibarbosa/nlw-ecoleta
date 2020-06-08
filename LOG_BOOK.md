@@ -2,7 +2,7 @@
 
 ## Backend
 
-- Criando aplicação BackEnd:
+#### Criando aplicação BackEnd:
 
 `
 mkdir backend
@@ -17,9 +17,7 @@ cd backend
 `
 npm init -y
 `
-
-
-- Instalando os módulos iniciais:
+#### Criando aplicação BackEnd:
 
 `
 npm install express
@@ -33,43 +31,49 @@ npm install typescript @types/express -D
 npm install ts-node-dev -D
 `
 
-- inicializar arquivo de configuração typescript na aplicação:
+#### inicializar arquivo de configuração typescript na aplicação
 
 ` 
 npx tsc --init
 `
 
-- Anotações sobre rotas
+#### Anotações sobre rotas
 
-//rota = endereço completo
-//recurso = qual entidade estamos acessando 
-//Request Param = parametros que vem na propria rota e identifica um recurso
-//Query Param = parametros que vem na propria rota, geralmente opcionais para filtros, paginação, etc ...
-//Request Body = parametos para criação e atualização de informações
+rota = endereço completo
 
-- Convensões de Rotas
+recurso = qual entidade estamos acessando 
+
+Request Param = parametros que vem na propria rota e identifica um recurso
+
+Query Param = parametros que vem na propria rota, geralmente opcionais para 
+filtros, paginação, etc ...
+
+Request Body = parametos para criação e atualização de informações
+
+#### Convensões de Rotas
 
 index, show, create, update, delete
+
+#### Usando knex para tabalhar com sqlite
 
 - Run knex migrations
 
 `
 npx knex --knexfile knexfile.ts migrate:latest
 `
- - TODO:
 
-- permitir upload de imagens no cadastro do ponto de coleta.
 
 ## Frontend
 
-- Criando aplicação frontEnd:
+#### Criando aplicação frontEnd:
 
 `
 npx create-react-app web --template=typescript
 `
 
-//sempre que criarmos estados com array e objetos é preciso
-//informar manualmente os tipos de variaveis usando interface (substituido o PropTypes antigo)
+sempre que criarmos estados com array e objetos é preciso
+
+informar manualmente os tipos de variaveis usando interface (substituido o PropTypes antigo)
 
 ## mobile
 
@@ -85,15 +89,17 @@ expo init mobile
 * escolher template blank com typescript 
   
 
-- Instalando fontes do Google no Expo.
+#### Instalando fontes do Google no Expo.
   
   `
   expo install @expo-google-fonts/ubuntu @expo-google-fonts/roboto  expo-font
   `
 
-  - TODO:
+### TODO:
 
-Trocar inputText por selectBox na vusca de UF e Cidade usando o react-native-picker-select
+ - Trocar inputText por selectBox na vusca de UF e Cidade usando o react-native-picker-select.
+
+ - passar as os caminhos do servidor para varáveis de ambiente.
 
 
 ## Hospedagem
@@ -101,9 +107,7 @@ Trocar inputText por selectBox na vusca de UF e Cidade usando o react-native-pic
    - Backend
 
     -- Heroku (somente para testes e demonstrações)
-    
     -- Digital Ocean (Para aplicações pequenas)
-    
     -- AWS / Google Cloud / Microsoft Azure (Para aplicações maiores)
 
    - Front End
